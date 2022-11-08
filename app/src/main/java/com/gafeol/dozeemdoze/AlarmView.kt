@@ -84,7 +84,7 @@ class AlarmView : AppCompatActivity() {
         var msg = ""
         meds?.forEachIndexed{ i, medName ->
             if(i == 0)
-                msg = "Hora de tomar "
+                msg = applicationContext.getString(R.string.time_to_take)
             else
                 msg += ", "
             msg += medName
@@ -137,7 +137,7 @@ class AlarmView : AppCompatActivity() {
                 }
                 Activity.RESULT_CANCELED -> {
                     // User cancelled the image capture
-                    Toast.makeText(applicationContext, "Compartilhe uma foto dos seus medicamentos para quem cuida de você!", Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext, applicationContext.getString(R.string.share_photo), Toast.LENGTH_LONG).show()
                 }
                 else -> {
                     // Image capture failed, advise user

@@ -3,13 +3,13 @@
     <item
         android:id="@+id/nav_medications"
         android:icon="@drawable/ic_pills"
-        android:title="Medicações" />
+        android:title="@string/medica_es" />
     <item
         android:id="@+id/nav_alarms"
         android:icon="@drawable/ic_alarm"
-        android:title="Alarmes" />
+        android:title="@string/alarmes" />
     <item
         android:id="@+id/nav_dependants"
         android:icon="@drawable/ic_dependants"
-        android:title="Dependentes" />
+        android:title="@string/dependents" />
 </menu>

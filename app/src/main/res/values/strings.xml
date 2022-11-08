@@ -33,4 +33,10 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="dependents">Dependentes</string>
+    <string name="alarmes">Alarmes</string>
+    <string name="medica_es">Medicações</string>
+
+    <string name="time_to_take"> Hora de tomar</string>
+    <string name="share_photo">  Compartilhe uma foto dos seus medicamentos para quem cuida de você!</string>
 </resources>
